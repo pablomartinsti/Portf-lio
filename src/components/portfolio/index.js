@@ -116,7 +116,7 @@ function Portfolio() {
       link: (
         <div className="links">
           <a
-            href="https://dev-burger-frontend.vercel.app/"
+            href="https://portfolio-xi-one-79.vercel.app/"
             className="link-btn"
             target="_blank"
             rel="noopener noreferrer"
@@ -124,7 +124,7 @@ function Portfolio() {
             Acessar deploy
           </a>
           <a
-            href="https://github.com/pablomartinsti/devBurger-Frontend"
+            href="https://github.com/pablomartinsti/Portfolio"
             className="link-btn"
             target="_blank"
             rel="noopener noreferrer"
@@ -133,7 +133,7 @@ function Portfolio() {
           </a>
 
           <a
-            href="https://www.linkedin.com/posts/pablo-ferreira-martins_desenvolvimentoweb-fullstack-reactjs-activity-7237520722946867201-rCdd?utm_source=share&utm_medium=member_desktop"
+            href="https://www.linkedin.com/posts/pablo-ferreira-martins_desenvolvimentoweb-react-portfaejlio-activity-7239708838902349824-Rom6?utm_source=share&utm_medium=member_desktop"
             className="link-btn"
             target="_blank"
             rel="noopener noreferrer"
