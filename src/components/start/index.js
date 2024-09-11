@@ -33,7 +33,7 @@ function Start() {
           <h2> Developed Full Stack</h2>
           <Button className="button">
             <a
-              href="/curriculo-pablo.pdf"
+              href="/PabloFerreiraMartins.pdf"
               download="Pablo-Ferreira-Martins-Curriculo"
               className="download"
             >
