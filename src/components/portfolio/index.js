@@ -38,7 +38,7 @@ function Portfolio() {
       description: (
         <div>
           <p>
-            O DevBurger é um sistema desenvolvido para otimizar o processo de
+            O CodeBurger é um sistema desenvolvido para otimizar o processo de
             gestão de pedidos em hamburguerias. Com uma interface intuitiva, o
             usuário pode navegar pelas categorias de produtos, adicionar itens
             ao carrinho e concluir pedidos. O sistema oferece uma área
