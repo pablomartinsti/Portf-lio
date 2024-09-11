@@ -43,6 +43,7 @@ export const Projects = styled.div`
     &.visible {
       opacity: 0.7;
       transform: translateY(0);
+      cursor: pointer;
     }
     &:hover {
       transform: scale(1.1);
@@ -64,7 +65,6 @@ export const Projects = styled.div`
       left: 47.4%;
       width: 360px;
       transform: translateX(-50%);
-
       border-radius: 0 0 10px 10px;
       text-align: center;
       transition:
