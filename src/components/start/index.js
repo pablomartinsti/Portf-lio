@@ -33,7 +33,7 @@ function Start() {
           <h2> Developed Full Stack</h2>
           <Button className="button">
             <a
-              href="/PabloFerreiraMartins.pdf"
+              href="https://portfolio-xi-one-79.vercel.app/PabloFerreiraMartins.pdf"
               download="Pablo-Ferreira-Martins-Curriculo"
               className="download"
             >
