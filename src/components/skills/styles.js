@@ -31,6 +31,7 @@ export const Section = styled.div`
     width: 200px;
     height: 270px;
     position: relative;
+    
   }
 
   .skills-inner {
@@ -59,12 +60,15 @@ export const Section = styled.div`
     align-items: center;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
   }
 
   .skills-front {
     background-color: transparent
     color: white;
     border:3px solid #0a8d19;
+    cursor: pointer;
+    
   }
 
   .skills-back {
@@ -73,6 +77,7 @@ export const Section = styled.div`
     transform: rotateY(180deg); 
     padding: 20px;
     text-align: center;
+    
   }
 
   .skills-front img {

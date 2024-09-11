@@ -26,7 +26,7 @@ export const Nav = styled.div`
     }
 
     &:hover {
-      transform: scale(1.1);
+      opacity: 0.8;
     }
   }
 
