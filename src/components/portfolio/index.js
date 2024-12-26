@@ -3,6 +3,7 @@ import { Projects, Container, Section } from './styles';
 import Modal from '../Modal';
 
 import CodeBurger from '../../assets/home.png';
+import DevBills from '../../assets/tela-home.png';
 import portfolio from '../../assets/portfolio.png';
 import cafeteria from '../../assets/cafeteria.png';
 import mario from '../../assets/mario.png';
@@ -33,6 +34,66 @@ function Portfolio() {
 
   const main = [
     {
+      image: DevBills,
+      title: 'DevBill$',
+      description: (
+        <div>
+          <p>
+            O DevBill$ é um sistema financeiro desenvolvido para controle de
+            receitas e despesas, permitindo que o usuário registre transações,
+            organize categorias personalizadas e acompanhe sua evolução
+            financeira através de gráficos interativos. O sistema é totalmente
+            responsivo, oferecendo uma experiência consistente em desktops,
+            tablets e celulares.
+          </p>
+
+          <p>Tecnologias Utilizadas</p>
+          <ul>
+            <li>Frontend: React.js, TypeScript, CSS Moderno</li>
+            <li>Backend: Node.js com Express, MongoDB (Atlas), JWT</li>
+            <li>Hospedagem: Vercel (Frontend), Render (Backend)</li>
+          </ul>
+        </div>
+      ),
+      link: (
+        <div className="links">
+          <a
+            href="https://devbills-front-lb1o68row-pablo-ferreira-martins-projects.vercel.app"
+            className="link-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar deploy
+          </a>
+          <a
+            href="https://github.com/pablomartinsti/devbills-front"
+            className="link-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Frontend
+          </a>
+          <a
+            href="https://github.com/pablomartinsti/devbills-api"
+            className="link-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Backend
+          </a>
+          <a
+            href="https://www.linkedin.com/posts/pablo-ferreira-martins_nodejs-react-typescript-activity-7277336975555121152-No0s?utm_source=share&utm_medium=member_desktop"
+            className="link-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver post no LinkedIn
+          </a>
+        </div>
+      ),
+    },
+
+    {
       image: CodeBurger,
       title: 'Code Burger',
       description: (
@@ -50,8 +111,7 @@ function Portfolio() {
           <ul>
             <li>Frontend React.js, Styled-Components, Axios</li>
             <li>
-              Backend Node.js com Express, Sequelize, PostgreSQL, MongoDB, JWT,
-              Cloudinary
+              Backend Node.js com Express, Sequelize, PostgreSQL, MongoDB.
             </li>
           </ul>
         </div>

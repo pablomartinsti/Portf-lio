@@ -107,7 +107,7 @@ export const Section = styled.div`
   justify-content: center;
   align-items: center;
   gap: 60px;
-  grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   margin: 50px;
 
   .card {

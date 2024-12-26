@@ -3,8 +3,10 @@ import { Container, Section } from './styles';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
 import java from '../../assets/javascript.png';
+import typeScript from '../../assets/typescript.png';
 import react from '../../assets/react.png';
 import node from '../../assets/node-js.png';
+import express from '../../assets/express.png';
 import postgres from '../../assets/postgres.png';
 import mongodb from '../../assets/mongodb.png';
 import git from '../../assets/git.png';
@@ -76,6 +78,19 @@ function Skills() {
             </div>
           </div>
         </div>
+        <div className="skills">
+          <div className="skills-inner">
+            <div className="skills-front">
+              <img src={typeScript} alt="typeScript" />
+              <h6>TYPESCRIPT</h6>
+            </div>
+            <div className="skills-back">
+              <p>
+                Tipagem estática para mais segurança e eficiência no código.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div className="skills">
           <div className="skills-inner">
@@ -100,6 +115,17 @@ function Skills() {
             </div>
             <div className="skills-back">
               <p>Desenvolvimento de servidores e APIs RESTful.</p>
+            </div>
+          </div>
+        </div>
+        <div className="skills">
+          <div className="skills-inner">
+            <div className="skills-front">
+              <img src={express} alt="express" />
+              <h6>EXPRESS</h6>
+            </div>
+            <div className="skills-back">
+              <p>Roteamento simplificado para APIs rápidas e robustas.</p>
             </div>
           </div>
         </div>

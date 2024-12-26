@@ -36,23 +36,19 @@ function About() {
       </h1>
 
       <p>
-        Desenvolvedor Full Stack em transição de carreira, apaixonado por
-        tecnologia e em constante evolução. Com conhecimentos em HTML, CSS,
-        JavaScript, React.js, Node.js, PostgreSQL e MongoDB, venho aplicando
-        minhas habilidades para criar soluções digitais focadas em usabilidade e
-        escalabilidade. Tenho experiência na construção de interfaces intuitivas
-        e sistemas funcionais que atendem às necessidades do usuário. No projeto
-        DevBurger - Sistema de Gestão para Hamburguerias, atuei em todas as
-        etapas, desenvolvendo tanto o front-end quanto o back-end, desde a
-        concepção da interface até a implementação do sistema de gerenciamento
-        de pedidos, com deploy em plataformas como Vercel e Render. Outros
-        projetos estão disponíveis no meu GitHub, demonstrando meu progresso e
-        comprometimento com o aprendizado contínuo. Estou em busca de
-        oportunidades para aplicar e expandir minhas habilidades, seja como
-        freelancer, contratado ou em regime CLT/PJ. Acredito no poder da
-        colaboração e estou sempre disposto a aprender e contribuir para
-        projetos inovadores. Vamos trabalhar juntos para transformar ideias em
-        realidade!
+        Desenvolvedor Full Stack com experiência em HTML, CSS, JavaScript,
+        TypeScript, React.js, Node.js, PostgreSQL, MongoDB e Docker. Desenvolvo
+        interfaces intuitivas e APIs escaláveis, com foco em boas práticas de
+        programação e na experiência do usuário. No projeto CodeBurger – Sistema
+        de Gestão para Hamburguerias, desenvolvi o front-end, back-end e
+        implementei o deploy em plataformas como Vercel e Render, utilizando
+        Node.js, Express, React, PostgreSQL e MongoDB.Outros projetos
+        disponíveis no meu GitHub demonstram minha evolução e comprometimento
+        com o desenvolvimento de software. Recentemente, finalizei um curso
+        completo de programação Full Stack e estou matriculado em Engenharia de
+        Software, com início em janeiro de 2025. Busco oportunidades para
+        aplicar e expandir minhas habilidades, contribuindo com soluções
+        inovadoras e colaborativas em projetos desafiadores.
       </p>
     </Container>
   );
